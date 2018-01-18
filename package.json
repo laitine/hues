@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "9.3.0",
+    "browser-sync": "2.23.5",
+    "browserify": "15.2.0",
+    "gulp": "3.9.1",
+    "gulp-csso": "3.0.1",
+    "gulp-uglify": "3.0.0",
+    "gulp-util": "3.0.8",
+    "tsify": "3.0.4",
+    "typescript": "2.6.2",
+    "vinyl-buffer": "1.0.1",
+    "vinyl-source-stream": "2.0.0",
+    "watchify": "3.9.0"
+  },
+  "name": "hues",
+  "version": "1.0.0",
+  "description": "Gradient animation generator",
+  "main": "hues.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css3",
+    "gradients",
+    "hues"
+  ],
+  "author": "laitine <laitine@iki.fi>",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,59 @@
+html {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+body {
+  background: #ffffff;
+  margin:0;
+  padding:0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  --deg: 0deg;
+  --gradient1: #8e44ad;
+  --gradient2: #9b59b6;
+  --gradient3: #2980b9;
+  --gradient4: #3498db;
+  --gradient5: #16a085;
+  --gradient6: #1abc9c;
+  --gradient7:  #27ae60;
+  --gradient8: #2ecc71;
+  --gradient9: #f1c40f;
+  --gradient10: #f39c12;
+  --gradient11: #e67e22;
+  --gradient12: #d35400;
+  --gradient13: #e74c3c;
+  --gradient14: #c0392b;
+  --duration: 100s;
+
+  background: linear-gradient(var(--deg), var(--gradient1), var(--gradient2), var(--gradient3), var(--gradient4), var(--gradient5), var(--gradient6), var(--gradient7), var(--gradient8), var(--gradient9), var(--gradient10), var(--gradient11), var(--gradient12), var(--gradient13), var(--gradient14));
+  background-size: 2000% 2000%;
+
+  -webkit-animation: HuesAnimation var(--duration) ease infinite;
+  -moz-animation: HuesAnimation var(--duration) ease infinite;
+  animation: HuesAnimation var(--duration) ease infinite;
+}
+
+@-webkit-keyframes HuesAnimation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes HuesAnimation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes HuesAnimation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
