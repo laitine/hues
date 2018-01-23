@@ -26,3 +26,11 @@ gulp
 ```
 gulp build
 ```
+
+4. Deploy to production
+
+```
+firebase deploy
+```
+
+5. Open production site https://hues-a6d41.firebaseapp.com/.
